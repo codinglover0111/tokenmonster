@@ -1,4 +1,3 @@
----
 # charset() Bug Fix
 ## Problem I Faced
 When I tried to create a vocabulary using the UTF-16 format, an unknown error occurred.  
@@ -12,7 +11,9 @@ However, it was returning what seemed to be a memory address instead.
 ## How I Fixed It
 I changed the code to use `self.charset()`.  
 Now, it successfully returns the expected data.
+
 ---
+
 # charset() 버그 수정
 
 ## 발생한 문제
